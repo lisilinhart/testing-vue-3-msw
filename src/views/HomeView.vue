@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import { useStoryblok } from "@storyblok/vue";
+
+const story = await useStoryblok("beasts", { version: "draft", resolve_relations: ["BeastPage.beasts"] });
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+    <main>
+      <StoryblokComponent v-if="story" :blok="story.content" /> 
+    </main>
 </template>
