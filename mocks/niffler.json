@@ -1,0 +1,73 @@
+{
+    "story": {
+        "name": "Niffler",
+        "created_at": "2023-04-06T10:29:38.987Z",
+        "published_at": "2023-04-12T08:40:54.342Z",
+        "alternates": [],
+        "id": 288484602,
+        "uuid": "ced0ce85-f8da-452f-b233-43c9c9efa2cc",
+        "content": {
+            "_uid": "1bff95b4-ba00-4765-a7af-805f2da32dda",
+            "diet": "omnivore",
+            "name": "Niffler",
+            "image": {
+                "id": 8029093,
+                "alt": "A niffler",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "filename": "https://a.storyblok.com/f/102771/1306x1346/2f48b89fdc/niffler.png",
+                "copyright": "",
+                "fieldtype": "asset",
+                "is_external_url": false
+            },
+            "skills": [
+                {
+                    "_uid": "33fbe008-fa77-4002-94cf-dff3833689a5",
+                    "name": "Burrowing",
+                    "component": "magical_skill",
+                    "description": "Can dig through dirt and rock with ease, creating intricate tunnels and burrows."
+                },
+                {
+                    "_uid": "aec3f611-7ef8-4db8-afeb-17bec8cdb963",
+                    "name": "Treasure-finding",
+                    "component": "magical_skill",
+                    "description": "Has a highly attuned sense for locating and retrieving shiny objects, even if they're hidden or trapped."
+                },
+                {
+                    "_uid": "c4d26baf-6488-4de1-a867-711d72db56d8",
+                    "name": "Explosive Sneezes",
+                    "component": "magical_skill",
+                    "description": "Can sneeze out a small explosion to defend itself or to access hard-to-reach areas."
+                }
+            ],
+            "habitat": [
+                "burrows",
+                "underground"
+            ],
+            "component": "MagicalBeast",
+            "description": "A small, furry, black-furred creature with a long snout and a love for shiny objects."
+        },
+        "slug": "niffler",
+        "full_slug": "magical-beasts/niffler",
+        "default_full_slug": "magical-beasts/niffler",
+        "sort_by_date": null,
+        "position": -10,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": 288484588,
+        "meta_data": null,
+        "group_id": "efeeee53-ff40-4a20-8493-f9fb2e624261",
+        "first_published_at": "2023-04-12T08:40:48.879Z",
+        "release_id": null,
+        "lang": "default",
+        "path": "niffler/",
+        "translated_slugs": [
+            {
+                "path": "magical-beasts/niffler",
+                "name": null,
+                "lang": "de"
+            }
+        ]
+    }
+}

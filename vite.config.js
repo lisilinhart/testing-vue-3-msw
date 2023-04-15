@@ -9,7 +9,9 @@ export default defineConfig({
   plugins: [vue()],//, basicSsl()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@mocks': fileURLToPath(new URL('./mocks', import.meta.url)),
+      '@tests': fileURLToPath(new URL('./tests', import.meta.url)),
     }
   }
 })

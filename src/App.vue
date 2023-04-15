@@ -12,8 +12,11 @@ import { RouterLink, RouterView } from 'vue-router'
   </va-navbar>
   <Suspense>
     <div class="container">
-    <RouterView />
+      <RouterView />
     </div>
+    <template #fallback>
+      Loading...
+    </template>
   </Suspense>
 </template>
 

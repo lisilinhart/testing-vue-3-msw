@@ -12,7 +12,8 @@
                 <div class="flex flex-col md7">
                     <h2 class="va-h4 beast-title">Skills</h2>
                     <ul>
-                        <li v-for="skill in blok.skills" :key="skill._uid" class="beast-skill">
+                        <li v-for="skill in blok.skills" :key="skill._uid"
+                            class="beast-skill">
                             <h4>{{ skill.name }}</h4>
                             <p>{{ skill.description }}</p>
                         </li>
@@ -22,8 +23,9 @@
                     <h2 class="va-h4 beast-title">Habitat</h2>
                     <div>
                         <va-badge v-for="habitat in blok.habitat" :key="habitat"
-                           class="beast-badge">
-                           <va-button text-color="#fff" size="small">{{ habitat }}</va-button>
+                            class="beast-badge">
+                            <va-button text-color="#fff" size="small">{{ habitat
+                            }}</va-button>
                         </va-badge>
                     </div>
                 </div>

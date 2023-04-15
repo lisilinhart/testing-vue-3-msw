@@ -1,0 +1,246 @@
+{
+    "story": {
+        "name": "beasts",
+        "created_at": "2023-04-06T13:02:35.367Z",
+        "published_at": "2023-04-15T09:55:12.364Z",
+        "alternates": [],
+        "id": 288569269,
+        "uuid": "d7937af5-76e2-4c17-aaa9-c693df2a38fd",
+        "content": {
+            "_uid": "baea8dea-a9f1-4c85-8de9-ce6cf3a53960",
+            "title": "My magical beasts",
+            "beasts": [
+                {
+                    "name": "Hippogriff",
+                    "created_at": "2023-04-06T10:28:37.469Z",
+                    "published_at": "2023-04-12T08:40:40.687Z",
+                    "alternates": [],
+                    "id": 288484600,
+                    "uuid": "53cc7b49-3473-4bf3-b642-5f7c24ad4d17",
+                    "content": {
+                        "_uid": "e9604a52-bd34-40a9-9615-fde12739421f",
+                        "diet": "omnivore",
+                        "name": "Hippogriff",
+                        "image": {
+                            "id": 8029107,
+                            "alt": "A hippogriff",
+                            "name": "",
+                            "focus": "",
+                            "title": "",
+                            "filename": "https://a.storyblok.com/f/102771/1630x1396/1451674309/hippogriff.png",
+                            "copyright": "",
+                            "fieldtype": "asset",
+                            "is_external_url": false
+                        },
+                        "skills": [
+                            {
+                                "_uid": "bb2ff27d-b0c5-4462-a4b6-1ee1ede66372",
+                                "name": "Flight",
+                                "component": "magical_skill",
+                                "description": "Can fly at great speeds and heights, even carrying riders.",
+                                "_editable": "\u003c!--#storyblok#{\"name\": \"magical_skill\", \"space\": \"102771\", \"uid\": \"bb2ff27d-b0c5-4462-a4b6-1ee1ede66372\", \"id\": \"288484600\"}--\u003e"
+                            },
+                            {
+                                "_uid": "9b3f7835-3a6c-4109-8eb0-4a6f85c03e4f",
+                                "name": "Proud Heart",
+                                "component": "magical_skill",
+                                "description": "May refuse to obey or submit to those who do not treat them with respect and honor.",
+                                "_editable": "\u003c!--#storyblok#{\"name\": \"magical_skill\", \"space\": \"102771\", \"uid\": \"9b3f7835-3a6c-4109-8eb0-4a6f85c03e4f\", \"id\": \"288484600\"}--\u003e"
+                            },
+                            {
+                                "_uid": "c4d91ab4-cc4a-44b3-a3fc-e32e8ba182ec",
+                                "name": "Healing Tears",
+                                "component": "magical_skill",
+                                "description": "Their tears have healing properties and are used in some medicinal potions.",
+                                "_editable": "\u003c!--#storyblok#{\"name\": \"magical_skill\", \"space\": \"102771\", \"uid\": \"c4d91ab4-cc4a-44b3-a3fc-e32e8ba182ec\", \"id\": \"288484600\"}--\u003e"
+                            }
+                        ],
+                        "habitat": [
+                            "mountain",
+                            "forest"
+                        ],
+                        "component": "MagicalBeast",
+                        "description": "A proud and powerful creature with the body, hind legs, and tail of a horse, and the wings, talons, and head of a giant eagle.",
+                        "_editable": "\u003c!--#storyblok#{\"name\": \"MagicalBeast\", \"space\": \"102771\", \"uid\": \"e9604a52-bd34-40a9-9615-fde12739421f\", \"id\": \"288484600\"}--\u003e"
+                    },
+                    "slug": "hippogriff",
+                    "full_slug": "magical-beasts/hippogriff",
+                    "default_full_slug": null,
+                    "sort_by_date": null,
+                    "position": 0,
+                    "tag_list": [],
+                    "is_startpage": false,
+                    "parent_id": 288484588,
+                    "meta_data": null,
+                    "group_id": "f4432dbf-f0e6-49b4-8e28-4353bc09faf1",
+                    "first_published_at": "2023-04-12T08:40:40.687Z",
+                    "release_id": null,
+                    "lang": "default",
+                    "path": "hippogriff/",
+                    "translated_slugs": []
+                },
+                {
+                    "name": "Niffler",
+                    "created_at": "2023-04-06T10:29:38.987Z",
+                    "published_at": "2023-04-12T08:40:54.342Z",
+                    "alternates": [],
+                    "id": 288484602,
+                    "uuid": "ced0ce85-f8da-452f-b233-43c9c9efa2cc",
+                    "content": {
+                        "_uid": "1bff95b4-ba00-4765-a7af-805f2da32dda",
+                        "diet": "omnivore",
+                        "name": "Niffler",
+                        "image": {
+                            "id": 8029093,
+                            "alt": "A niffler",
+                            "name": "",
+                            "focus": "",
+                            "title": "",
+                            "filename": "https://a.storyblok.com/f/102771/1306x1346/2f48b89fdc/niffler.png",
+                            "copyright": "",
+                            "fieldtype": "asset",
+                            "is_external_url": false
+                        },
+                        "skills": [
+                            {
+                                "_uid": "33fbe008-fa77-4002-94cf-dff3833689a5",
+                                "name": "Burrowing",
+                                "component": "magical_skill",
+                                "description": "Can dig through dirt and rock with ease, creating intricate tunnels and burrows.",
+                                "_editable": "\u003c!--#storyblok#{\"name\": \"magical_skill\", \"space\": \"102771\", \"uid\": \"33fbe008-fa77-4002-94cf-dff3833689a5\", \"id\": \"288484602\"}--\u003e"
+                            },
+                            {
+                                "_uid": "aec3f611-7ef8-4db8-afeb-17bec8cdb963",
+                                "name": "Treasure-finding",
+                                "component": "magical_skill",
+                                "description": "Has a highly attuned sense for locating and retrieving shiny objects, even if they're hidden or trapped.",
+                                "_editable": "\u003c!--#storyblok#{\"name\": \"magical_skill\", \"space\": \"102771\", \"uid\": \"aec3f611-7ef8-4db8-afeb-17bec8cdb963\", \"id\": \"288484602\"}--\u003e"
+                            },
+                            {
+                                "_uid": "c4d26baf-6488-4de1-a867-711d72db56d8",
+                                "name": "Explosive Sneezes",
+                                "component": "magical_skill",
+                                "description": "Can sneeze out a small explosion to defend itself or to access hard-to-reach areas.",
+                                "_editable": "\u003c!--#storyblok#{\"name\": \"magical_skill\", \"space\": \"102771\", \"uid\": \"c4d26baf-6488-4de1-a867-711d72db56d8\", \"id\": \"288484602\"}--\u003e"
+                            }
+                        ],
+                        "habitat": [
+                            "burrows",
+                            "underground"
+                        ],
+                        "component": "MagicalBeast",
+                        "description": "A small, furry, black-furred creature with a long snout and a love for shiny objects.",
+                        "_editable": "\u003c!--#storyblok#{\"name\": \"MagicalBeast\", \"space\": \"102771\", \"uid\": \"1bff95b4-ba00-4765-a7af-805f2da32dda\", \"id\": \"288484602\"}--\u003e"
+                    },
+                    "slug": "niffler",
+                    "full_slug": "magical-beasts/niffler",
+                    "default_full_slug": null,
+                    "sort_by_date": null,
+                    "position": -10,
+                    "tag_list": [],
+                    "is_startpage": false,
+                    "parent_id": 288484588,
+                    "meta_data": null,
+                    "group_id": "efeeee53-ff40-4a20-8493-f9fb2e624261",
+                    "first_published_at": "2023-04-12T08:40:48.879Z",
+                    "release_id": null,
+                    "lang": "default",
+                    "path": "niffler/",
+                    "translated_slugs": []
+                },
+                {
+                    "name": "Phoenix",
+                    "created_at": "2023-04-06T10:31:12.045Z",
+                    "published_at": "2023-04-12T08:40:59.243Z",
+                    "alternates": [],
+                    "id": 288484613,
+                    "uuid": "9ac2dabe-d7d0-4c17-9302-c76dbd78161d",
+                    "content": {
+                        "_uid": "ab505fab-1bd6-4e0e-b582-b392668f8cc5",
+                        "diet": "omnivore",
+                        "name": "Phoenix",
+                        "image": {
+                            "id": 8029092,
+                            "alt": "A phoenix",
+                            "name": "",
+                            "focus": "",
+                            "title": "",
+                            "filename": "https://a.storyblok.com/f/102771/1742x1140/b41b6cc6aa/phoenix.png",
+                            "copyright": "",
+                            "fieldtype": "asset",
+                            "is_external_url": false
+                        },
+                        "skills": [
+                            {
+                                "_uid": "264f69dc-9290-4fef-a837-50baebe3bd02",
+                                "name": "Healing Tears",
+                                "component": "magical_skill",
+                                "description": "Their tears have powerful healing properties, and are used in many medicinal potions and spells.",
+                                "_editable": "\u003c!--#storyblok#{\"name\": \"magical_skill\", \"space\": \"102771\", \"uid\": \"264f69dc-9290-4fef-a837-50baebe3bd02\", \"id\": \"288484613\"}--\u003e"
+                            },
+                            {
+                                "_uid": "ba403515-585f-4d6d-951a-d090de186278",
+                                "name": "Fiery Rebirth",
+                                "component": "magical_skill",
+                                "description": "When a Phoenix dies, it bursts into flames and is reborn from its own ashes, rejuvenated and renewed.",
+                                "_editable": "\u003c!--#storyblok#{\"name\": \"magical_skill\", \"space\": \"102771\", \"uid\": \"ba403515-585f-4d6d-951a-d090de186278\", \"id\": \"288484613\"}--\u003e"
+                            },
+                            {
+                                "_uid": "495c498a-b3c7-4c01-9d78-46c60a3b34a8",
+                                "name": "Song of Sorrow",
+                                "component": "magical_skill",
+                                "description": "Can sing a hauntingly beautiful song that brings comfort to those who are grieving or in pain.",
+                                "_editable": "\u003c!--#storyblok#{\"name\": \"magical_skill\", \"space\": \"102771\", \"uid\": \"495c498a-b3c7-4c01-9d78-46c60a3b34a8\", \"id\": \"288484613\"}--\u003e"
+                            }
+                        ],
+                        "habitat": [
+                            "forest",
+                            "mountain"
+                        ],
+                        "component": "MagicalBeast",
+                        "description": "A beautiful bird with vibrant plumage that can burst into flames and be reborn from its ashes.",
+                        "_editable": "\u003c!--#storyblok#{\"name\": \"MagicalBeast\", \"space\": \"102771\", \"uid\": \"ab505fab-1bd6-4e0e-b582-b392668f8cc5\", \"id\": \"288484613\"}--\u003e"
+                    },
+                    "slug": "phoenix",
+                    "full_slug": "magical-beasts/phoenix",
+                    "default_full_slug": null,
+                    "sort_by_date": null,
+                    "position": -20,
+                    "tag_list": [],
+                    "is_startpage": false,
+                    "parent_id": 288484588,
+                    "meta_data": null,
+                    "group_id": "20f06f7f-0522-42af-924d-364e0df94a46",
+                    "first_published_at": "2023-04-12T08:40:59.243Z",
+                    "release_id": null,
+                    "lang": "default",
+                    "path": "phoenix/",
+                    "translated_slugs": []
+                }
+            ],
+            "component": "BeastPage",
+            "_editable": "\u003c!--#storyblok#{\"name\": \"BeastPage\", \"space\": \"102771\", \"uid\": \"baea8dea-a9f1-4c85-8de9-ce6cf3a53960\", \"id\": \"288569269\"}--\u003e"
+        },
+        "slug": "beasts",
+        "full_slug": "beasts",
+        "default_full_slug": "beasts",
+        "sort_by_date": null,
+        "position": -10,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": null,
+        "meta_data": null,
+        "group_id": "c361da4d-bd1b-497d-b446-40f67be90520",
+        "first_published_at": "2023-04-12T08:52:58.482Z",
+        "release_id": null,
+        "lang": "default",
+        "path": "beasts/",
+        "translated_slugs": [
+            {
+                "path": "beasts",
+                "name": null,
+                "lang": "de"
+            }
+        ]
+    }
+}
