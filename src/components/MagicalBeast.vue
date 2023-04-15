@@ -14,7 +14,7 @@
                     <ul>
                         <li v-for="skill in blok.skills" :key="skill._uid"
                             class="beast-skill">
-                            <h4>{{ skill.name }}</h4>
+                            <h3 class="va-4">{{ skill.name }}</h3>
                             <p>{{ skill.description }}</p>
                         </li>
                     </ul>

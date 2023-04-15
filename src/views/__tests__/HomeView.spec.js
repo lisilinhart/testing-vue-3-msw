@@ -6,6 +6,7 @@ import { flushPromises } from '@vue/test-utils'
 import { mount } from '@vue/test-utils'
 
 import HomeView from '../HomeView.vue';
+
 const AsyncHome = defineComponent({
     components: { HomeView },
     template: '<Suspense><HomeView /></Suspense>'
