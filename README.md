@@ -1,41 +1,28 @@
-# magical-beasts-msw
+# Testing Vue 3 Application with Mock Service Worker & Vitest
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Vue 3 application that demonstrates how to use Mock Service Worker and Vitest for testing purposes. The project has different branches, each representing a step towards the final setup.
 
-## Recommended IDE Setup
+To get started, clone the repository and check out the different branches:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+* [step-1-init-app](https://github.com/lisilinhart/testing-vue-3-msw/tree/step-1-init-app): Initializes the app
+* [step-2-connect-api-and-msw](https://github.com/lisilinhart/testing-vue-3-msw/tree/step-2-connect-api-and-msw): Connects to an API and sets up Mock Service Worker
+* [step-3-write-unit-tests](https://github.com/lisilinhart/testing-vue-3-msw/tree/step-3-write-unit-tests): Writes unit tests for the app
 
 ## Project Setup
 
-```sh
-npm install
-```
+First, install the required dependencies by running the following command:
 
-### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+yarn
 ```
 
-### Compile and Minify for Production
+### Run unit tests
+
+To run unit tests, run the following command:
+
 
 ```sh
-npm run build
+yarn test:unit
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
