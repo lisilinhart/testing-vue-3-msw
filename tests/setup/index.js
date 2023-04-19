@@ -3,6 +3,7 @@ import { config } from "@vue/test-utils"
 import { createVuestic } from 'vuestic-ui'
 import router from '@/router'
 import { RouterLinkStub } from '@vue/test-utils'
+import '@testing-library/jest-dom/extend-expect';
 
 setupMSW()
 

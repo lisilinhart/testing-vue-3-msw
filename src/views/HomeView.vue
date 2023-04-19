@@ -2,9 +2,9 @@
 import { ref } from "vue";
 import BeastPage from "@/components/BeastPage.vue";
 const loadingText = ref('Loading...');
+const story = ref(null);
 
 try {
-  const story = ref(null);
   const response = await fetch(
     `https://api.storyblok.com/v1/cdn/stories/beasts?token=${import.meta.env.VITE_SB_PREVIEW_TOKEN}&version=draft&resolve_relations=BeastPage.beasts`
   )

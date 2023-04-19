@@ -50,13 +50,11 @@ describe("Testing the home view", () => {
   });
 });
 
-describe("Testing the home view", () => {
-  let getSpy, wrapper;
-
-  test.only("a failing request", async () => {
+describe("Home view with error handlers", () => {
+  test("a failing request", async () => {
     server.use(...errorHandlers)
-    getSpy = vi.spyOn(window, "fetch");
-    wrapper = mount(AsyncHome);
+    let getSpy = vi.spyOn(window, "fetch");
+    let wrapper = mount(AsyncHome);
     await waitFor(() => expect(getSpy).toHaveBeenCalledTimes(1));
     await flushPromises();
 
