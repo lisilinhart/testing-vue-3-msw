@@ -24,7 +24,7 @@
                     <div>
                         <va-badge v-for="habitat in blok.habitat" :key="habitat"
                             class="beast-badge">
-                            <va-button text-color="#fff" size="small">{{ habitat
+                            <va-button text-color="#fff" size="small" @click="$emit('clicked-habitat', habitat)">{{ habitat
                             }}</va-button>
                         </va-badge>
                     </div>
@@ -36,6 +36,8 @@
   
 <script setup>
 defineProps({ blok: Object });
+
+defineEmits(['clicked-habitat']);
 
 const getImageUrl = (filename) => {
     return filename + '/m/300x300';

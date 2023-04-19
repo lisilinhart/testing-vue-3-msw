@@ -1,13 +1,14 @@
-import { render, screen } from "@testing-library/vue";
+import { render, screen, fireEvent } from "@testing-library/vue";
 import { config } from "@vue/test-utils";
 import MagicalBeast from "../MagicalBeast.vue";
 import MagicalBeastMock from "@mocks/niffler.json";
 
 describe("Beast component", () => {
   const blok = MagicalBeastMock.story.content;
+  let result;
 
   beforeEach(() => {
-    render(MagicalBeast, {
+    result = render(MagicalBeast, {
       props: { blok },
       global: config.global,
     });
@@ -28,9 +29,12 @@ describe("Beast component", () => {
       expect(screen.queryByText(skill.description)).toBeInTheDocument();
     });
   });
-  test("renders the habitat as buttons", () => {
-    blok.habitat.forEach((habitat) => {
+
+  test("renders the habitat as buttons and emits the event", () => {
+    blok.habitat.forEach((habitat, i) => {
       expect(screen.getAllByRole("button", { name: habitat })).toHaveLength(1);
+      fireEvent.click(screen.getByRole("button", { name: habitat }));
+      expect(result.emitted('clicked-habitat')[i][0]).toBe(habitat)
     });
   });
 });
