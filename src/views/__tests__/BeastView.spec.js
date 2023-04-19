@@ -2,8 +2,7 @@ import {
     waitFor
 } from '@testing-library/vue';
 import { defineComponent } from 'vue';
-import { flushPromises } from '@vue/test-utils'
-import { mount } from '@vue/test-utils'
+import { mount, flushPromises } from '@vue/test-utils'
 
 import BeastView from '../BeastView.vue';
 
